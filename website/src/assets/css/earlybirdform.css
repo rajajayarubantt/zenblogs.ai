@@ -1,0 +1,87 @@
+.earlybirdform-main {
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.earlybirdform-main .earlybirdform-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.earlybirdform-main .earlybirdform-logo img {
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+}
+
+.earlybirdform-main .earlybirdform-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.earlybirdform-main .earlybirdform-head .head-title {
+    font-size: var(--font-size-mlg);
+    font-weight: var(--font-weight-xl);
+    color: var(--font-dark-color);
+    text-align: center;
+}
+
+.earlybirdform-main .earlybirdform-head .head-desc {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-xs);
+    line-height: var(--line-height-md);
+    color: var(--font-dark-color);
+    text-align: center;
+}
+
+.earlybirdform-main .earlybirdform-input-main {
+    width: 100%;
+    height: max-content;
+}
+
+.earlybirdform-main .earlybirdform-actions {
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.earlybirdform-main .earlybirdform-tags {
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.earlybirdform-main .earlybirdform-tag {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-md);
+    line-height: var(--line-height-md);
+    color: var(--font-dark-color);
+    text-align: center;
+
+    padding: 6px 12px;
+
+    border: 0.1px solid var(--primary-color);
+    border-radius: 1000px;
+    box-shadow: var(--shadow-md);
+
+    cursor: grab;
+
+}
+
+@media only screen and (max-width: 600px) {}
